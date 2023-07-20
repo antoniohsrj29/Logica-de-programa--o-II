@@ -4,26 +4,20 @@ from funcoes import Divisao
 from funcoes import Multiplicacao
 from funcoes import Exponencial
 
-def calcule():
+def calcule(a,b,operacao):
     resultado = 0
-    a = input("Digite o primeiro número: ")
-    while a.isdigit() != True:
-        print("Preciso que digite um número.")
-        a = input("Digite novamente: ")    
-    a = int(a)
-    b = input("Digite o segundo número: ")
-    while b.isdigit() != True:
-        print("Preciso que digite um número.")
-        b = input("Digite novamente: ")    
-    b = int(b)
-    operacao = input("""Qual operação gostaria de ralizar?
-                     use:
-                        + para soma
-                        - para subtração
-                        / para divisão
-                        * para multiplica
-                        ** para exponenciação
-                    """)
+    if type(a) == str or type(a) == bool:
+        print("Digite um numero por favor.")
+        resultado = "Não foi possivel fazer operação"
+        return resultado
+    else:
+        pass
+    if type(b) == str or type(b) == bool:
+        print("Digite um numero por favor.")
+        resultado = "Não foi possivel fazer operação"
+        return resultado
+    else:
+        pass
     if operacao not in ['+','-','/','*','**']:
         print("Operação não identificada!")
         resultado = "Não foi possivel realizar a operação."
