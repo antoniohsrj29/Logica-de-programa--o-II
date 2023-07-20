@@ -1,8 +1,8 @@
-from funcoes import soma
-from funcoes import subtracao
-from funcoes import divisao
-from funcoes import multiplicacao
-from funcoes import exponencial
+from funcoes import Soma
+from funcoes import Subtracao
+from funcoes import Divisao
+from funcoes import Multiplicacao
+from funcoes import Exponencial
 def calcule():
     resultado = 0
     a = input("Digite o primeiro número: ")
