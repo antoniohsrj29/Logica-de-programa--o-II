@@ -7,13 +7,13 @@ from funcoes import Exponencial
 def calcule(a,b,operacao):
     resultado = 0
     if type(a) == str or type(a) == bool:
-        print("Digite um numero por favor.")
+        print(f"Digite um numero por favor. Primeiro valor digitado foi {a},")
         resultado = "Não foi possivel fazer operação"
         return resultado
     else:
         pass
     if type(b) == str or type(b) == bool:
-        print("Digite um numero por favor.")
+        print(f"Digite um numero por favor. Segundo valor digitado foi {b}")
         resultado = "Não foi possivel fazer operação"
         return resultado
     else:
@@ -38,4 +38,3 @@ def calcule(a,b,operacao):
         resultado = Exponencial(a,b)
     return resultado
 
-calcule()
