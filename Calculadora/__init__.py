@@ -43,3 +43,4 @@ def calcule():
         print(f"a exponecial é {Exponencial(a,b)}")
         resultado = Exponencial(a,b)
     return resultado
+calcule()
