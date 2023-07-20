@@ -28,18 +28,18 @@ def calcule():
         print("Operação não identificada!")
         resultado = "Não foi possivel realizar a operação."
     elif operacao == '+':
-        print(f"a soma é {soma(a,b)}")
-        resultado = soma(a,b)
+        print(f"a soma é {Soma(a,b)}")
+        resultado = Soma(a,b)
     elif operacao == '-':
-        print(f"a subtração é {subtracao(a,b)}")
-        resultado = subtracao(a,b)
+        print(f"a subtração é {Subtracao(a,b)}")
+        resultado = Subtracao(a,b)
     elif operacao == '/':
-        print(f"a divisão é {divisao(a,b)}")
-        resultado = divisao(a,b)
+        print(f"a divisão é {Divisao(a,b)}")
+        resultado = Divisao(a,b)
     elif operacao == '*':
-        print(f"a multiplicação é {multiplicacao(a,b)}")
-        resultado = multiplicacao(a,b)
+        print(f"a multiplicação é {Multiplicacao(a,b)}")
+        resultado = Multiplicacao(a,b)
     elif operacao == '**':
-        print(f"a exponecial é {exponencial(a,b)}")
-        resultado = exponencial(a,b)
+        print(f"a exponecial é {Exponencial(a,b)}")
+        resultado = Exponencial(a,b)
     return resultado
