@@ -25,6 +25,7 @@ def calcule():
                     """)
     if operacao not in ['+','-','/','*','**']:
         print("Operação não identificada!")
+        resultado = "Não foi possivel realizar a operação."
     elif operacao == '+':
         print(f"a soma é {soma(a,b)}")
         resultado = soma(a,b)
