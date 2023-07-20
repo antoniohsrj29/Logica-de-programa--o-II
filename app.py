@@ -1,1 +1,1 @@
-from Calculadora import calcule
+from calculadora import calcule
