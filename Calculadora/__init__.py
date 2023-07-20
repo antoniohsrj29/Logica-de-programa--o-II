@@ -3,6 +3,7 @@ from funcoes import Subtracao
 from funcoes import Divisao
 from funcoes import Multiplicacao
 from funcoes import Exponencial
+
 def calcule():
     resultado = 0
     a = input("Digite o primeiro número: ")
@@ -42,6 +43,5 @@ def calcule():
         print(f"a exponecial é {exponencial(a,b)}")
         resultado = exponencial(a,b)
     return resultado
-    
-        
+
 
