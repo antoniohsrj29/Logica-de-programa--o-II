@@ -1,8 +1,8 @@
-from funcoes import Soma
-from funcoes import Subtracao
-from funcoes import Divisao
-from funcoes import Multiplicacao
-from funcoes import Exponencial
+from teste import Soma
+from teste import Subtracao
+from teste import Divisao
+from teste import Multiplicacao
+from teste import Exponencial
 
 def calcule(a,b,operacao):
     resultado = 0
